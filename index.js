@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
     </li>
 
     <li>
-    <h3><mark>Get:</mark> Change the endpoint to <mark>/hallapi/bookingroom</mark> to Book a New Room</h3>
+    <h3><mark>Post:</mark> Change the endpoint to <mark>/hallapi/bookingroom</mark> to Book a New Room</h3>
     </li>
 
     <li>
