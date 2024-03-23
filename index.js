@@ -8,11 +8,11 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.status(200)
-    .send(`<div style="text-align: center; background-color:lightblue;  padding: 10px;"><h1>Welcome to: Golden Oasis Retreat Hall Booking</h1></div>
+    .send(`<div style="text-align: center; background-color:lightblue;  padding: 10px;"><h1>Welcome to the greate karigalan Hall Booking</h1></div>
     <div>
     <ul>
     <li>
-    <h3 style = background-color:lightblue;><mark>Get:</mark> Use the endpoint to <mark>/hallapi/allroomdetails</mark> to get the All Room Details</h3>
+    <h3><mark>Get:</mark> Use the endpoint to <mark>/hallapi/allroomdetails</mark> to get the All Room Details</h3>
     </li>
 
     <li>
